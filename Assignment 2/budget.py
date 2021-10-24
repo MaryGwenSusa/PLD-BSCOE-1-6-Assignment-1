@@ -5,4 +5,4 @@ priceOfApple = float(input('How much is the apple?\n> '))
 maximumNumberOfApples = int(yourWallet/priceOfApple)
 remainingMoney = float(yourWallet%priceOfApple)
 
-print(f"You can buy {maximumNumberOfApples} and your change is {remainingMoney}.") if priceOfApple <= yourWallet else print(f"Sorry, you don't have enough money.")
+print(f"You can buy {maximumNumberOfApples} and your change is {remainingMoney:.2f}.") if priceOfApple <= yourWallet else print(f"Sorry, you don't have enough money.")
